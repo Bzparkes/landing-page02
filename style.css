@@ -10,6 +10,7 @@ nav {
     min-height: 60px;
     background-color: #445348;
     max-width: 1600px;
+    font-size: 24px;
 }
 
 nav a {
@@ -37,7 +38,9 @@ nav ul{
     gap: 20px;
 }
 
-
+img {
+    border-radius: 8px;
+}
 
 .container header .header-text h1 {
     display: flex;
@@ -70,6 +73,7 @@ nav ul{
     max-width: 600px;
     height: auto;
     padding: 60px 0px;
+    border-radius: 8px;
 }
 
 .container h2 {
@@ -100,7 +104,41 @@ nav ul{
     align-content: baseline;
     max-height: 250px;
     max-width: auto;
+    border-radius: 4px;
 
+}
+
+.container .call-to-action {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin-left: 300px;
+    padding: 60px 0px;
+    background-color: #445348;  
+    color: whitesmoke; 
+    border-radius: 8px;
+}
+
+.container .call-to-action h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.container .call-to-action p{
+    font-size: 18px;
+}
+
+.container .call-to-action button {
+    font-size: 24px;
+    border: 6px;
+    padding: 8px 8px;
+    border-radius: 6px;
+    border-style: solid;
+    color: whitesmoke;
+    background-color: #5d7256;
+    border-color: antiquewhite;
+    width: 150px;
+    height: auto;
 }
 
 
@@ -111,7 +149,9 @@ nav ul{
     align-items: center;
     height: 60px;
     background-color: #445348;
-    min-width: 1600px;
+    color: whitesmoke;
+    max-width: 1600px;
+    margin-top: 60px;
     /*position: absolute;
     bottom: 0;
     margin-left:160px;*/
