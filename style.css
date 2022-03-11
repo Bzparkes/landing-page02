@@ -1,0 +1,17 @@
+* {
+   margin: 0px;
+   padding: 0px; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
